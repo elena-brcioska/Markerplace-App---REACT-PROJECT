@@ -1,0 +1,38 @@
+.product-image {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+h2 {
+  font-size: 46px;
+  margin: 0 0 16px 0;
+}
+
+.comments-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 899px) {
+  h2 {
+    font-size: 36px;
+    margin: 24px 0;
+  }
+  h4 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  h2 {
+    font-size: 36px;
+    margin: 24px 0;
+  }
+  h4 {
+    font-size: 18px;
+  }
+}

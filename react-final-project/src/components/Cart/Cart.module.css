@@ -1,0 +1,144 @@
+h2 {
+  color: gray;
+}
+
+.cart-item {
+  display: flex;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.text {
+  text-align: center;
+}
+
+.cart-info-box {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-self: center;
+}
+.cart-info-box button {
+  align-self: center;
+}
+
+.cart-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  float: right;
+  text-align: center;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+}
+
+.quantity button {
+  align-self: center;
+  margin: 0 15px;
+  padding: 0 5px;
+  font-size: 12px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  background-color: aliceblue;
+}
+
+.product-image {
+  width: 20%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.modal-text {
+  font-family: "Poppins", serif;
+  font-size: 22px;
+  color: rgb(88, 88, 88);
+}
+
+.modal-thank-you {
+  text-transform: uppercase;
+  font-family: "Poppins", serif;
+  font-size: 42px;
+  color: rgb(126, 120, 120);
+}
+
+.modal-btn {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #2e7d32;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+@media screen and (max-width: 768px) {
+  .product-image {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .product-image {
+    width: 70%;
+  }
+
+  .modal-text {
+    font-size: 20px;
+  }
+
+  .modal-thank-you {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .product-image {
+    width: 100%;
+  }
+
+  .cart-item {
+    display: flex;
+    padding: 10px 0;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(214, 214, 214);
+  }
+
+  .quantity button {
+    margin: 0 5px;
+  }
+
+  .modal-thank-you {
+    font-size: 20px;
+  }
+
+  .modal-btn {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 0.775rem;
+    font-weight: 500;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #2e7d32;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  }
+}

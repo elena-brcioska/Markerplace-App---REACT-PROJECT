@@ -1,0 +1,143 @@
+.hero {
+  padding: 20px 80px;
+}
+
+.hero-text-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  padding: 50px 0;
+}
+
+.main-heading {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 72px;
+  color: #7b8fa1;
+}
+
+.sub-heading {
+  font-family: "Yellowtail", cursive;
+  color: #d7bedc;
+  margin: 0;
+  padding: 0;
+  margin-left: 200px;
+  text-align: right;
+  font-size: 42px;
+}
+
+.hero-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #7439b8;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: #7439b8;
+  background-image: -webkit-linear-gradient(top, #7439b8, #6d46f0);
+  background-image: -moz-linear-gradient(top, #7439b8, #6d46f0);
+  background-image: -ms-linear-gradient(top, #7439b8, #6d46f0);
+  background-image: -o-linear-gradient(top, #7439b8, #6d46f0);
+  background-image: linear-gradient(to bottom, #7439b8, #6d46f0);
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1440px) {
+  .main-heading {
+    font-size: 48px;
+  }
+
+  .sub-heading {
+    font-size: 40px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main-heading {
+    font-size: 36px;
+  }
+
+  .sub-heading {
+    font-size: 24px;
+  }
+
+  .btn {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .hero {
+    padding: 100px 80px;
+  }
+
+  .hero-img-container {
+    display: none;
+  }
+
+  .main-heading {
+    font-size: 48px;
+  }
+
+  .sub-heading {
+    font-size: 36px;
+  }
+
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .btn {
+    font-size: 16px;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .hero {
+    padding: 20px 30px;
+  }
+
+  .hero-text-container {
+    width: 100%;
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-heading {
+    font-size: 36px;
+  }
+
+  .sub-heading {
+    font-size: 24px;
+  }
+}

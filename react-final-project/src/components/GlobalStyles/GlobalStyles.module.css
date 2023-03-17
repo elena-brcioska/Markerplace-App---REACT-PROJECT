@@ -1,0 +1,105 @@
+
+.product-card {
+    pointer-events: none;
+    min-height: 600px;
+    max-height: 700px;
+    margin: 0 16px;
+    padding-bottom: 16px;
+  }
+  
+  .product-image {
+    border-radius: 20px 20px 0 0;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .product-card-info {
+    padding: 24px 24px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .product-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .product-card-title {
+    pointer-events: auto;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #393053;
+  }
+  
+  .product-card-heading,
+  .product-card-text {
+    margin: 0;
+    padding: 0;
+  }
+
+  .product-card-text {
+    min-height: 50px;
+  }
+  
+  .product-rating {
+    pointer-events: auto;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .product-card-title:hover {
+    cursor: pointer;
+  }
+  
+  .product-card:hover {
+    box-shadow: 7px 7px 19px 6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 7px 7px 19px 6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 7px 19px 6px rgba(0, 0, 0, 0.75);
+  }
+
+  .action-btn {
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .btn {
+    align-self: center;
+    padding: 4px 10px;
+    text-decoration: none;
+    background: transparent;
+    color: #9c27b0;
+    font-family: "Poppins", serif;
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid #9c27b0;
+    border-radius: 5px;
+    transition: all 0.2s;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    background: #9ba6d5;
+    border: 1px solid #9ba6d5;
+    color: #fff;
+  }
+  

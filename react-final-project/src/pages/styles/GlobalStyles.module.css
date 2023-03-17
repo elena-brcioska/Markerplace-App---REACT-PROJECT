@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  margin: auto;
+  padding: 50px 0;
+  background-color: #f5eaea;
+}
+
+.container-wrapper {
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.access-card {
+  width: 50%;
+  margin: auto;
+  padding: 100px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .container-wrapper {
+    width: 90%;
+  }
+
+  .access-card {
+    width: 70%;
+    padding: 70px 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .access-card {
+    width: 80%;
+  }
+}

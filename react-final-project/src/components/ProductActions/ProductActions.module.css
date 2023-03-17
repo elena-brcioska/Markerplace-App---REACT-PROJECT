@@ -1,0 +1,41 @@
+.container-wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.product-actions-wrapper {
+  padding: 28px 0;
+  background-color: ghostwhite;
+}
+
+.product-actions {
+  width: 25%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.product-actions-text {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: gray;
+}
+
+@media screen and (max-width: 1350px) {
+  .product-actions {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .product-actions {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product-actions {
+    width: 100%;
+  }
+}
